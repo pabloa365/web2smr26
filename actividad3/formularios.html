@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de prueba de HTML5</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+    
+    <form action="" method="get">
+        
+        <fieldset>
+            <legend>Datos personales</legend>
+            
+            <label for="txtNombre">Nombre:</label>
+            <input type="text" name="txtNombre" id="txtNombre" required autofocus>
+            <p>
+            <label for="txtcorreo">Correo electrónico:</label>
+            <input type="email" name="txtcorreo" id="txtcorreo" required>
+            <p>
+            <label for="txtUrl">URL:</label>
+            <input type="url" name="txtUrl" id="txtUrl" 
+            placeholder="Escribe la URL de tu pagina web personal" size="50">
+            <p>
+            <label for="sCiudad">Ciudad</label>
+            <select id="sCiudad" name="sCiudad">
+                <option value="Cordoba">Cordoba</option> <option value="Almeria">Almería</option> <option value="Jaen">Jaen</option>  <option value="Granada">Granada</option>  <option value="Huelva">Huelva</option> <option value="Malaga">Malaga</option> <option value="Cadiz">Cadiz</option> <option value="SEVILLA" selected>Sevilla</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Otros datos</legend>
+            
+            <label for="dtFecha">Fecha:</label>
+            <input type="date" name="dtFecha" id="dtFecha">
+             <p>
+            <label for="tmTiempo">Tiempo:</label>
+            <input type="time" name="tmTiempo" id="tmTiempo">
+            <p>
+            <label for="dtFechaHora">Fecha y hora:</label>
+            <input type="datetime" name="dtFechaHora" id="dtFechaHora">
+            <p>
+            <label for="mMes">Mes:</label>
+            <input type="month" name="mMes" id="mMes">
+            <p>
+            <label for="wkSemana">Semana:</label>
+            <input type="week" name="wkSemana" id="wkSemana">
+            <p>
+            <label for="numNumero">Numero (min -10, max 10):</label>
+            <input type="number" name="numNumero" id="numNumero" min="-10" max="10" value="0">
+            <p>
+            <label for="telTelefono">Telefono:</label>
+            <input type="tel" name="telTelefono" id="telTelefono">
+            <p>
+            <label for="srcBusqueda">Termino de búsqueda:</label>
+            <input type="search" name="srcBusqueda" id="srcBusqueda">
+            <p>
+            <label for="clrColor">Color favorito:</label>
+            <input type="color" name="clrColor" id="clrColor">
+        </fieldset>
+
+        <fieldset>
+            <legend>Otros controles</legend>
+            
+            Aficiones
+            <input type="checkbox" name="chkCine" id="chkCine" value="1" checked>
+            <label for="chkCine">Cine</label>
+            <input type="checkbox" name="chkDeporte" id="chkDeporte" value="1">
+            <label for="chkDeporte">Deporte</label>
+            <p>
+            Forma de pago
+            <p>
+            <input type="radio" name="Pago" id="Visa" value="V">
+            <label for="Visa">Visa</label>
+            <input type="radio" name="Pago" id="Amex" value="A">
+            <label for="Amex">American express</label>
+            <input type="radio" name="Pago" id="MasterCard" value="M">
+            <label for="MasterCard">Mastercard</label>
+        </fieldset>
+
+        <label for="Contraseña">Contraseña
+        <input type="password" name="Contraseña" id="Contraseña" min="0" max="10" placeholder="Pon tu Contraseña">
+        <br>
+        <input type="submit" id="btnEnviar" value="Enviar">
+        <input type="reset" id="btnBorrar" value="Borrar">
+
+    </form>
+</body>
+</html>
