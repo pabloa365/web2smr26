@@ -1,0 +1,86 @@
+body{
+	background-color:khaki;
+	margin: 0 auto;
+}
+
+.texto-destacado{
+	color: blue;
+}
+
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: lightpink;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: blue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: white;
+  color: red;
+}
+
+#destacado{
+border-style: dashed;
+border-color: yellow;
+background-color: lightyellow;
+padding: 1%;
+}
+
+.caja{
+	border-style: solid;
+	border-color: blue;
+	box-sizing:border-box;
+	width:30%;
+	float:left;
+	position:relative;
+	margin-left:3%;
+	margin-right:3%;
+}
+.caja p{
+	color:green;
+}
+
+.caja p:first-child {
+font-weight: bold;
+text-decoration: underline;
+}
+/* Segundo párrafo dentro de la caja */
+.caja p:nth-of-type(2) {
+clear: both; /* fuerza a empezar debajo del flotado anterior */
+padding: 5px;
+}
+
+.izquierda{
+	float:left;
+}
+
+.derecha{
+	float:right;
+}
+
+footer{
+	position: absolute;
+	bottom: 0;
+}
+
+footer p:first-child{
+	color:dimgrey;
+}
+
+footer p{
+	font-weight:bold;
+	color:darkgrey;
+}

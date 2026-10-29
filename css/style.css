@@ -1,0 +1,23 @@
+h1{
+	text-align:center;
+	letter-spacing:10px;
+	font-size:300%;
+}
+
+.actividades{
+	text-align:center;
+	color:hotpink;
+}
+img{
+	opacity: 50%;
+}
+
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align:center;
+  color:lightpink;
+  
+}
